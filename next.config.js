@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    distDir: 'build',
+    images: {
+        domains: ['roar.media'],
+    }
+}
 
-module.exports = nextConfig
+module.exports = nextConfig;
