@@ -11,7 +11,7 @@ export default async function SingleBlog({params}) {
             <div className='bg-orange-100 pl-5'>
                 <h1 className='py-3 text-start'>Single Blog Item</h1>
             </div>
-            <div>
+            <div className="">
                 <p className="bg-orange-400 my-4 p-3">{singlePost.postDetails.title}</p>
                 <Image
                     src={singlePost.postDetails.img}
